@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Encoding=UTF-8
 Name=SweetHome 3D
 Comment=Draw the plan of your home or office, test furniture layouts and view the results in 3D
 Exec=SweetHome3D
-Icon=com.sweethome3d.App.png
+Icon=com.sweethome3d.App
 Terminal=false
+Categories=Graphics;Art;Office;3DGraphics;Java;Engineering;
