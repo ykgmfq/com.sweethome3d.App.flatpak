@@ -1,0 +1,6 @@
+all:
+	true
+install:
+	mkdir -p /app/SweetHome3D /app/bin
+	cp -ra * /app/SweetHome3D
+	ln -s /app/SweetHome3D/SweetHome3D /app/bin

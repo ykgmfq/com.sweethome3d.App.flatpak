@@ -1,0 +1,46 @@
+ {
+    "app-id": "com.sweethome3d.App",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "1.6",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "SweetHome3D",
+    "finish-args": [
+        "--persist=.java",
+        "--share=ipc", "--socket=x11",
+        "--share=network"
+    ],
+    "modules": [
+        {
+            "name": "sweethome",
+            "no-autogen": true,
+            "sources" : [
+                {
+                    "type": "archive",
+                    "url": "http://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-5.4/SweetHome3D-5.4-linux-x64.tgz",
+                    "sha256": "4f2f69495aac1cb2fd9a7c7235b596b1916fee4f77f348e8381cf136c56e5ae4"
+                },
+                {
+                    "type": "file",
+                    "path": "sweethome-Makefile",
+                    "dest-filename": "Makefile"
+                },
+                {
+                    "type": "file",
+                    "url": "http://sweethome3d.cvs.sourceforge.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/applicationIcon.png",
+                    "sha256": "2cefc0b5948d68cdc6bc16576ca9338476cf27cdf2c0ead4250b19e10286e96e",
+                    "dest-filename": "com.sweethome3d.App.png"
+                },
+                {
+                    "type": "file",
+                    "path": "com.sweethome3d.App.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "com.sweethome3d.App.appdata.xml"
+                }
+
+
+            ]
+        }
+    ]
+  }

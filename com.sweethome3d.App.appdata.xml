@@ -1,0 +1,32 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+  <!-- Copyright 2013 First Lastname <your@email.com> -->
+  <component type="desktop">
+   <id>com.sweethome3d.App.desktop</id>
+   <metadata_license>CC0-1.0</metadata_license>
+   <project_license>GPL-2.0</project_license>
+   <name>SweetHome 3D</name>
+   <summary>Draw the plan of your home or office, test furniture layouts and view the results in 3D</summary>
+   <description>
+    <p>
+     Use SweetHome 3D to map out a plan of your house and plan the layout
+     and colors of floors, walls and furniture.
+    </p>
+    <p>Example list:</p>
+    <ul>
+     <li>First item</li>
+     <li>Second item</li>
+    </ul>
+    <p>
+    This is another paragraph of information about SweetHome 3D and the Many
+    things that you can use it for
+    </p>
+   </description>
+   <screenshots>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery/SweetHome3DExample10-FlatWithMezzanine-VirtualVisit.jpg</image>
+     <caption>The main window showing the application in action</caption>
+    </screenshot>
+   </screenshots>
+   <url type="homepage">http://http://www.sweethome3d.com/</url>
+  </component>
+  
