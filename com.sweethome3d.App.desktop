@@ -6,3 +6,7 @@ Exec=SweetHome3D
 Icon=com.sweethome3d.App
 Terminal=false
 Categories=Graphics;Art;Office;3DGraphics;Java;Engineering;
+
+# This thing is to tell GnomeShell the name of the X window of the
+# application for being able to set the correct icon, etc.
+StartupWMClass="sun-awt-X11-XFramePeer", "com-eteks-sweethome3d-SweetHome3D"

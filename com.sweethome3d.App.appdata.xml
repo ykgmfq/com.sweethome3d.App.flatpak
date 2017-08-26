@@ -10,9 +10,8 @@
    	<p>
    	Sweet Home 3D is a free interior design application that helps you place your furniture on a house 2D plan, with a 3D preview.
    	</p>
-   	<p>
-   	
-   	Available at <a href="http://www.sweethome3d.com/">http://www.sweethome3d.com/</a>, this program is aimed at
+   	<p>   	
+   	Available at http://www.sweethome3d.com/, this program is aimed at
    	people who want to design their interior quickly, whether they are
    	moving or they just want to redesign their existing home.  Numerous
    	visual guides help you draw the plan of your home and layout
@@ -44,5 +43,6 @@
     </screenshot>
    </screenshots>
    <url type="homepage">http://http://www.sweethome3d.com/</url>
+   <update_contact>ismael@olea.org</update_contact>
   </component>
   

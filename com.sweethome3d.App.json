@@ -26,8 +26,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "http://sweethome3d.cvs.sourceforge.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/images/applicationIcon.png",
-                    "sha256": "2cefc0b5948d68cdc6bc16576ca9338476cf27cdf2c0ead4250b19e10286e96e",
+                    "url": "http://www.sweethome3d.com/blog/images/5.2/SweetHome3DIcon512x512.png",
+                    "sha256": "902d686d135ac5597ddb856c7e4cd04a685dcf04927f83cff8266cdda46a84c4",
                     "dest-filename": "com.sweethome3d.App.png"
                 },
                 {
