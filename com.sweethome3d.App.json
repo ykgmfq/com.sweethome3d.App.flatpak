@@ -7,7 +7,7 @@
     "finish-args": [
         "--persist=.java",
         "--share=ipc", "--socket=x11",
-        "--share=network"
+        "--share=network", "--device=dri", "--filesystem=home"
     ],
     "modules": [
         {
