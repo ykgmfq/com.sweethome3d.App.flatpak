@@ -3,28 +3,44 @@
   <component type="desktop">
    <id>com.sweethome3d.App.desktop</id>
    <metadata_license>CC0-1.0</metadata_license>
-   <project_license>GPL-2.0</project_license>
+   <project_license>GPL-2.0+</project_license>
    <name>SweetHome 3D</name>
    <summary>Draw the plan of your home or office, test furniture layouts and view the results in 3D</summary>
    <description>
-    <p>
-     Use SweetHome 3D to map out a plan of your house and plan the layout
-     and colors of floors, walls and furniture.
-    </p>
-    <p>Example list:</p>
-    <ul>
-     <li>First item</li>
-     <li>Second item</li>
-    </ul>
-    <p>
-    This is another paragraph of information about SweetHome 3D and the Many
-    things that you can use it for
-    </p>
+   	<p>
+   	Sweet Home 3D is a free interior design application that helps you place your furniture on a house 2D plan, with a 3D preview.
+   	</p>
+   	<p>
+   	
+   	Available at <a href="http://www.sweethome3d.com/">http://www.sweethome3d.com/</a>, this program is aimed at
+   	people who want to design their interior quickly, whether they are
+   	moving or they just want to redesign their existing home.  Numerous
+   	visual guides help you draw the plan of your home and layout
+   	furniture.  You may draw the walls of your rooms upon the image of
+   	an existing plan, and then, drag and drop furniture onto the plan
+   	from a catalog organized by categories.  Each change in the 2D plan
+   	is simultaneously updated in the 3D view, to show you a realistic
+   	rendering of your layout.
+   	</p>
    </description>
    <screenshots>
     <screenshot type="default">
      <image>http://www.sweethome3d.com/images/gallery/SweetHome3DExample10-FlatWithMezzanine-VirtualVisit.jpg</image>
-     <caption>The main window showing the application in action</caption>
+    </screenshot>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery2015/MaxHan.jpg</image>
+    </screenshot>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery2015/GurkanIlgin.jpg</image>
+    </screenshot>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery2015/SylvainThomazo.jpg</image>
+    </screenshot>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery2015/FloTardy.jpg</image>
+    </screenshot>
+    <screenshot type="default">
+     <image>http://www.sweethome3d.com/images/gallery2015/EnkoNyito.jpg</image>
     </screenshot>
    </screenshots>
    <url type="homepage">http://http://www.sweethome3d.com/</url>
