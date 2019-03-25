@@ -1,7 +1,7 @@
  {
     "app-id": "com.sweethome3d.App",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
+    "runtime-version": "18.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "SweetHome3D",
     "finish-args": [
@@ -16,8 +16,8 @@
             "sources" : [
                 {
                     "type": "archive",
-                    "url": "http://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-5.4/SweetHome3D-5.4-linux-x64.tgz",
-                    "sha256": "4f2f69495aac1cb2fd9a7c7235b596b1916fee4f77f348e8381cf136c56e5ae4"
+                    "url": "http://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.1.2/SweetHome3D-6.1.2-linux-x64.tgz",
+                    "sha256": "4beab64488c7be96b3e37aa0e7bcd88befadf889c5b3d5980490016fc4e07c58"
                 },
                 {
                     "type": "file",

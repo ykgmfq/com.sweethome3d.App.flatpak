@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <!-- Copyright 2013 First Lastname <your@email.com> -->
-  <component type="desktop">
-   <id>com.sweethome3d.App.desktop</id>
+  <component type="desktop-application">
+   <id>com.sweethome3d.App</id>
+   <launchable type="desktop-id">com.sweethome3d.App.desktop</launchable>
    <metadata_license>CC0-1.0</metadata_license>
    <project_license>GPL-2.0+</project_license>
    <name>SweetHome 3D</name>
@@ -11,7 +12,7 @@
    	Sweet Home 3D is a free interior design application that helps you place your furniture on a house 2D plan, with a 3D preview.
    	</p>
    	<p>   	
-   	Available at http://www.sweethome3d.com/, this program is aimed at
+   	This program is aimed at
    	people who want to design their interior quickly, whether they are
    	moving or they just want to redesign their existing home.  Numerous
    	visual guides help you draw the plan of your home and layout
@@ -43,6 +44,10 @@
     </screenshot>
    </screenshots>
    <url type="homepage">http://http://www.sweethome3d.com/</url>
+   <releases>
+      <release date="2019-02-01" version="6.1.2"/>
+   </releases>
    <update_contact>ismael@olea.org</update_contact>
+     <content_rating type="oars-1.1"></content_rating>
   </component>
   
