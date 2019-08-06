@@ -24,8 +24,8 @@ modules:
       - type: file
         url: http://www.sweethome3d.com/blog/images/5.2/SweetHome3DIcon512x512.png
         sha256: 902d686d135ac5597ddb856c7e4cd04a685dcf04927f83cff8266cdda46a84c4
-        dest-filename: com.sweethome3d.App.png
+        dest-filename: com.sweethome3d.SweetHome3D.png
       - type: file
-        path: com.sweethome3d.App.desktop
+        path: com.sweethome3d.SweetHome3D.desktop
       - type: file
-        path: com.sweethome3d.App.appdata.xml
+        path: com.sweethome3d.SweetHome3D.appdata.xml
