@@ -5,8 +5,8 @@ install:
 	cp -ra * /app/SweetHome3D
 	ln -s /app/SweetHome3D/SweetHome3D /app/bin
 	install -d /app/share/applications/
-	install -p com.sweethome3d.App.desktop /app/share/applications/
+	install -p com.sweethome3d.SweetHome3D.desktop /app/share/applications/
 	install -d /app/share/icons/hicolor/512x512/apps
-	install -p com.sweethome3d.App.png /app/share/icons/hicolor/512x512/apps/com.sweethome3d.App.png
+	install -p com.sweethome3d.SweetHome3D.png /app/share/icons/hicolor/512x512/apps/com.sweethome3d.SweetHome3D.png
 	install -d /app/share/metainfo/
-	install -p com.sweethome3d.App.appdata.xml /app/share/metainfo
+	install -p com.sweethome3d.SweetHome3D.appdata.xml /app/share/metainfo

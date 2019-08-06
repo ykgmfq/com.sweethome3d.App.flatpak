@@ -1,5 +1,5 @@
  {
-    "app-id": "com.sweethome3d.App",
+    "app-id": "com.sweethome3d.SweetHome3D",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "18.08",
     "sdk": "org.freedesktop.Sdk",
