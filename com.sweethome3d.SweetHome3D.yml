@@ -29,3 +29,5 @@ modules:
         path: com.sweethome3d.SweetHome3D.desktop
       - type: file
         path: com.sweethome3d.SweetHome3D.appdata.xml
+    cleanup:
+      - /lib
