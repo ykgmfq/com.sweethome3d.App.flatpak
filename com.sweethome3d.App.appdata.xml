@@ -45,6 +45,7 @@
    </screenshots>
    <url type="homepage">http://http://www.sweethome3d.com/</url>
    <releases>
+      <release date="2019-07-10" version="6.2"/>
       <release date="2019-02-01" version="6.1.2"/>
    </releases>
    <update_contact>ismael@olea.org</update_contact>
