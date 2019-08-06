@@ -1,46 +1,31 @@
- {
-    "app-id": "com.sweethome3d.SweetHome3D",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "18.08",
-    "sdk": "org.freedesktop.Sdk",
-    "command": "SweetHome3D",
-    "finish-args": [
-        "--persist=.java",
-        "--share=ipc", "--socket=x11",
-        "--share=network", "--device=dri", "--filesystem=home"
-    ],
-    "modules": [
-        {
-            "name": "sweethome",
-            "no-autogen": true,
-            "sources" : [
-                {
-                    "type": "archive",
-                    "url": "http://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.2/SweetHome3D-6.2-linux-x64.tgz",
-                    "sha256": "5c2090b16c32e52637e87a48197a13d30a0322940949431bbb898b7b082cfca6"
-                },
-                {
-                    "type": "file",
-                    "path": "sweethome-Makefile",
-                    "dest-filename": "Makefile"
-                },
-                {
-                    "type": "file",
-                    "url": "http://www.sweethome3d.com/blog/images/5.2/SweetHome3DIcon512x512.png",
-                    "sha256": "902d686d135ac5597ddb856c7e4cd04a685dcf04927f83cff8266cdda46a84c4",
-                    "dest-filename": "com.sweethome3d.App.png"
-                },
-                {
-                    "type": "file",
-                    "path": "com.sweethome3d.App.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "com.sweethome3d.App.appdata.xml"
-                }
-
-
-            ]
-        }
-    ]
-  }
+---
+app-id: com.sweethome3d.SweetHome3D
+runtime: org.freedesktop.Platform
+runtime-version: '18.08'
+sdk: org.freedesktop.Sdk
+command: SweetHome3D
+finish-args:
+  - "--persist=.java"
+  - "--share=ipc"
+  - "--socket=x11"
+  - "--share=network"
+  - "--device=dri"
+  - "--filesystem=home"
+modules:
+  - name: sweethome
+    no-autogen: true
+    sources:
+      - type: archive
+        url: http://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.2/SweetHome3D-6.2-linux-x64.tgz
+        sha256: 5c2090b16c32e52637e87a48197a13d30a0322940949431bbb898b7b082cfca6
+      - type: file
+        path: sweethome-Makefile
+        dest-filename: Makefile
+      - type: file
+        url: http://www.sweethome3d.com/blog/images/5.2/SweetHome3DIcon512x512.png
+        sha256: 902d686d135ac5597ddb856c7e4cd04a685dcf04927f83cff8266cdda46a84c4
+        dest-filename: com.sweethome3d.App.png
+      - type: file
+        path: com.sweethome3d.App.desktop
+      - type: file
+        path: com.sweethome3d.App.appdata.xml
