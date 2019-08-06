@@ -3,7 +3,7 @@ Type=Application
 Name=SweetHome 3D
 Comment=Draw the plan of your home or office, test furniture layouts and view the results in 3D
 Exec=SweetHome3D
-Icon=com.sweethome3d.App
+Icon=com.sweethome3d.SweetHome3D
 Terminal=false
 Categories=Graphics;Art;Office;3DGraphics;Java;Engineering;
 
